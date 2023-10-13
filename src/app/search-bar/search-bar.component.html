@@ -1,0 +1,8 @@
+<div class="box">
+    <form (submit)="onFormSubmit($event)">
+        <input placeholder="Enter Search Term" class="input" (input)="term = $any($event).target.value" type="text">
+    </form>
+</div>
+
+
+<!-- https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&utf8=1&srsearch=space -->
